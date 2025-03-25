@@ -1,3 +1,6 @@
+/** football.h
+// This header file defines function declarations for the Football Score Possibilities program. It provides interface for functions that calculate and print combinations of NFL scoring plays.
+*/
 #ifndef FOOTBALL_H
 #define FOOTBALL_H
 
