@@ -1,5 +1,5 @@
-#ifndef __LAB_H__
-#define __LAB_H__
+#ifndef FOOTBALL_H
+#define FOOTBALL_H
 
 /* Do not modify the function signatures here */
 
@@ -17,6 +17,15 @@ int count_combinations(int points);
  * 
  * @param points
  */
+
 void print_combinations(int points);
 
-#endif /* __LAB_H__ */
+/**
+ * @brief Find and print all possible scoring combinations for a given score
+ * 
+ * @param score
+ */
+
+void print_combinations(int points);
+
+#endif /* FOOTBALL_H */
