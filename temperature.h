@@ -1,5 +1,5 @@
-#ifndef __REPORT_H__
-#define __REPORT_H__
+#ifndef TEMPERATURE_H
+#define TEMPERATURE_H
 
 /* Add any function signatures you need here but do not modify the existing ones */
 
@@ -35,4 +35,27 @@ float celsius_to_kelvin(float celsius);
  */
 float kelvin_to_celsius(float celsius);
 
-#endif /* __REPORT_H__ */
+/**
+ * @brief Convert temperature in Fahrenheit to Kelvin
+ * 
+ * @param fahrenheit
+ * @return float
+ */
+float fahrenheit_to_kelvin(float fahrenheit);
+
+/**
+ * @brief Convert temperature in Kelvin to Fahrenheit
+ * 
+ * @param kelvin
+ * @return float
+ */
+float kelvin_to_fahrenheit(float kelvin);
+
+/**
+ * @brief Categorize the temperature in Celsius and provide a weather advisory
+ * 
+ * @param celsius
+ */
+void categorize_temperature(float celsius);
+
+#endif /* TEMPERATURE_H */
